@@ -5,6 +5,10 @@ body {
     font-family: Helvetica, Tahoma, Arial;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 h1,h2,h3,h4{
     color:rgb(29, 137, 255);
 }
@@ -75,6 +79,13 @@ span {
     }
     .fir-title{
         display: block;
+        font-size: 5.5rem !important;
+        margin-top: 0.3em !important;
+        background: linear-gradient(to bottom, #fff, #acacac);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
     }
 }
 

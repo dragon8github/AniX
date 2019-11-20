@@ -7,7 +7,6 @@ export class HeadSide extends Component {
     }
 
     render() {
-
         return (
             <div className="head-side">
                 <div className="container">
