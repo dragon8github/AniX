@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Button from '../Button';
 import { Util } from '../../../utils/Util';
-import { AniX } from '../../../../../dist/umd/anix.umd';
+import { AniX } from 'anix';
 import './Demo2.css';
 
 export class Demo2 extends Component {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { AniX } from '../../../../../dist/umd/anix.umd';
+import { AniX } from 'anix';
 import './MyButton.css';
 
 export class MyButton extends Component {

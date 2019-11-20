@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { MyButton } from './demo/MyButton';
 import { Tips } from './demo/Tips';
-import { AniX } from '../../../../dist/umd/anix.umd';
+import { AniX } from 'anix';
 
 export class Section4 extends Component {
 
@@ -75,10 +75,10 @@ if (type == 'over') {
                     <div className="sec-con">
                         <h4 className="blur">interactive button</h4>
                         <div>
-                            <MyButton>HELLO</MyButton>
-                            <MyButton>HELLO</MyButton>
-                            <MyButton>HELLO</MyButton>
-                            <MyButton>HELLO</MyButton>
+                            <MyButton>ONE</MyButton>
+                            <MyButton>TWO</MyButton>
+                            <MyButton>THREE</MyButton>
+                            <MyButton>FOUR</MyButton>
                         </div>
 
                         <div style={{ clear: 'both' }}>
