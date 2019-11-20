@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Button from '../Button';
-import { AniX, CssX } from '../../../../../dist/umd/anix.umd';
+import { AniX, CssX } from 'anix';
 import './Demo6.css';
 
 export class Demo6 extends Component {
